@@ -73,3 +73,7 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
+
+1. 수정
+vs code에서 수정해서 push 하는 것 
