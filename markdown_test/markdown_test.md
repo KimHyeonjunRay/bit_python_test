@@ -45,10 +45,10 @@
 
 #### 상대경로
 
-![](./sample/lion1.jpg)
+![](../sample/lion1.jpg)
 
 ## img 태그 : 
-<img src='./sample/lion1.jpg' width='200'>
+<img src='../sample/lion1.jpg' width='200'>
 
 
 # A 링크
