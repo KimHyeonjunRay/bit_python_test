@@ -4,3 +4,78 @@
     1. git 사용 
     1. add, comit
     1. push pull
+
+---
+
+
+표준입력: 0, 키보드 
+표준출력: 1, 터미널(cmd 같은거. CUI라 부름 )
+표준에러: 2, 터미널 (에러 터미널, 로그(에러 로그)파일)
+
+--- 리눅스 명령어
+
+pwd : 현재 디렉토리 출력
+cd : 홈
+cd 폴더명 : 디렉토리 이동
+. :현재 디렉토리
+.. : 상위 디렉토리
+mkdir : 폴더 만들기
+ls : 현재 디렉토리 파일 보여주기
+ls -l : 상세 보여줌
+ls -al : 완전 상세 보여줌
+rm -r 파일명 : 파일 지우기
+cat : 파일 내용 보여줌
+
+
+--- git bash 명령어
+
+git init : git 설치
+.git : git 삭제 (rm -r .git)
+git config --user.name "유저이름"  : 이름 등록
+git config --user.email "유저이메일" :이메일 등록
+git config -l --global : 유저 상황 나열
+cat ~/.gitconfig : gitconfig 파일 보기
+
+git status : 커밋 안된 것 보여줌
+git add 파일명 : staging area에 넣기
+git commit : git directory(repository) 리비전(Revision) 생성
+git commit -m '커밋 이유 or 상태' : 
+git checkout HEAD~숫자 : 숫자 만큼 이전 리비전으로 HEAD 이동 (돌아감)
+git branch 이름 : branch 만듬
+git checkout 브랜치이름 : branch 이동
+
+
+--- git 개인사용 방법
+
+로컬 (git bash)
+ssh-keygen.exe -t rsa -C "사용자이름"
+ls -l .ssh/ (확인)
+cat .ssh/id_rsa.pub (키 ->복사해서 github setting SSH and GPG keys)
+
+깃헙에서 새 프로젝트 만들어서 사용
+주소 복사(ssh로)
+
+로컬 (git bash)
+git clone 주소
+cd Bit_python_exam(폴더이름)
+nano.exe README.md (파일수정)
+git status 
+git diff README.md
+git add README.md
+git commit -m '-------'
+git diff README.md (커밋해서 안뜸)
+git log
+git remote -v (연동된 git 주소 확인)
+git push -u origin main
+
+---
+
+---vs code 에서 사용
+ctrl shift p Git: Clone
+SSH 주소 붙여넣기
+
+수정하면 커밋 
+push 가능
+(GUI)
+
+---
