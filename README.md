@@ -1,8 +1,5 @@
-# Bit_python 연습
+# Bit_python 수업 및 연습 공간입니다
 
-## 1일차
-    1. git 사용 
-    1. add, comit
-    1. push pull
+
 
 
